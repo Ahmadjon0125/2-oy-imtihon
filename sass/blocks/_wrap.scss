@@ -1,0 +1,94 @@
+.wrap {
+  margin-bottom: 247px;
+}
+
+.wrap__inner {
+  display: flex;
+}
+
+.fish {
+  width: 100%;
+  background-image: url("../../images/fish-bg.png");
+  background-repeat: no-repeat;
+  background-size: 988px 624px;
+  background-color: #333333;
+}
+
+.fish__info {
+  padding-top: 62px;
+  padding-bottom: 74px;
+  padding-left: 166px;
+}
+
+.fish__form {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+}
+
+.fish__title {
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.fish__text {
+  margin-bottom: 29px;
+  width: 343px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.fish__name {
+  margin-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  outline: none;
+  border: transparent;
+  background-color: #FFFFFF;
+  border-radius: 0px;
+}
+
+.fish__email {
+  margin-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  outline: none;
+  border: transparent;
+  background-color: #FFFFFF;
+  border-radius: 0px;
+}
+
+.fish__textarea {
+  margin-bottom: 30px;
+  padding-top: 17px;
+  padding-left: 22px;
+  resize: none;
+  height: 165px;
+}
+
+.fish__button {
+  padding: 15px 50px;
+  background: #FFBD54;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+}

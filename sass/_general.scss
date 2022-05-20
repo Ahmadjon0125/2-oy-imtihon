@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #F9F9F9;
+  font-family: "Futura PT", sans-serif;
+  // background-color: #E5E5E5;
+  // background-image: url("../images/body-bg.png");
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  // height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+main {
+  background-image: url("../images/body-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

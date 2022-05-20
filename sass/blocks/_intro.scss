@@ -1,0 +1,42 @@
+.intro {
+  padding-top: 73px;
+  padding-bottom: 73px;
+  background-image: url("../../images/intro-open.svg"), url("../../images/intro-close.svg");
+  background-repeat: no-repeat;
+  background-size: 65px 68px, 65px 68px;
+  background-position: calc(50% - 510px) calc(50% + -45px), calc(50% + 498px) calc(50% + 69px);
+}
+
+.intro__inner {
+  text-align: center;
+}
+
+.intro__span {
+  margin: 0 auto;
+  display: block;
+  width: 140px;
+  height: 0;
+  background-color: #DBDBDB;
+  border: 1px solid #DBDBDB;
+}
+
+.intro__text {
+  display: inline-block;
+  margin-top: 43px;
+  margin-bottom: 35px;
+  width: 753px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+
+.intro__info {
+  display: inline-block;
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
